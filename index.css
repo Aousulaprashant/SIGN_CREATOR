@@ -1,0 +1,74 @@
+*{
+    background-color: #FFF7FC;
+}
+.container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+  
+    transform: translate(-50%,-50%);
+}
+.top, .end{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+p{
+    color: #d473b1;
+}
+.black ,input , select , button{
+    width: 80%;
+}
+
+canvas{
+    border: solid #d473b1;
+}
+
+.top>.black{
+    margin: 10px;
+}
+.end>button{
+    margin: 10px;
+}
+.black>p{
+    margin: 10px auto;
+    width: 50%;
+}
+
+.bnt{
+    padding: 4px;
+    border: solid #d473b1;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    border-radius: 5px;
+}
+
+#clearButton{
+    background-color: #FFF455;
+}
+
+#save{
+    background-color:#04AA6D;;
+}
+#Retrive{
+    background-color: rgb(101, 198, 224);
+}
+#clearButton:hover{
+    background-color: #c9bc01;
+}
+
+#save:hover{
+    background-color:#2b7a5d;;
+}
+#Retrive:hover{
+    background-color: rgb(57, 129, 148);
+}
+
+.footer{
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: #c88cb2;
+
+}
